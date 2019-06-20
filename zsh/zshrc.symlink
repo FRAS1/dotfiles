@@ -21,6 +21,11 @@ plugins=(
   colored-man-pages
   sudo
   zsh-autosuggestions
+  common-aliases
+  git-extras
+  pyenv
+ # rails
+  z
 )
 
 source $ZSH/oh-my-zsh.sh
