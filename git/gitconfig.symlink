@@ -1,8 +1,8 @@
 #[hub]
 #  protocol = https
 [user]
-  name = dyno
-  email = 459949820@qq.com
+	name = dyno
+	email = 459949820@qq.com
 #  signingkey = E77D0CB6
 #[credential]
 #  helper = osxkeychain
@@ -13,7 +13,7 @@
   log = auto
   ui = true
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
   editor = vim
 [help]
   autocorrect = 1
@@ -28,18 +28,20 @@
 [difftool]
   prompt = false
 [difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
   trustExitCode = false
+	path = 
 [merge]
   tool = sourcetree
 [mergetool]
   keepBackup = false
 [mergetool "sourcetree"]
-  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
 [filter "lfs"]
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
   required = true
 [commit]
   gpgsign = false
+	template = /Users/dyno/.stCommitMsg
