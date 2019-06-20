@@ -1,1 +1,1 @@
-export AWS_DEFAULT_REGION="ap-northeast-1"
+# export AWS_DEFAULT_REGION="ap-northeast-1"

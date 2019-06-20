@@ -1,11 +1,11 @@
-[hub]
-  protocol = https
+#[hub]
+#  protocol = https
 [user]
-  name = Amo Wu
-  email = amo260@gmail.com
-  signingkey = E77D0CB6
-[credential]
-  helper = osxkeychain
+  name = dyno
+  email = 459949820@qq.com
+#  signingkey = E77D0CB6
+#[credential]
+#  helper = osxkeychain
 [color]
   diff = auto
   status = auto
@@ -42,4 +42,4 @@
   smudge = git-lfs smudge %f
   required = true
 [commit]
-  gpgsign = true
+  gpgsign = false
