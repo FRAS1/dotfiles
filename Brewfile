@@ -19,11 +19,11 @@ brew 'ssh-copy-id'
 brew 'trash'
 brew 'tree'
 brew 'unrar'
-
+brew 'zsh-autosuggestions'
+brew 'highlighters'
 
 cask 'google-chrome'
 cask 'iterm2'
-
 
 cask 'qlcolorcode'
 cask 'qlmarkdown'
@@ -35,10 +35,7 @@ cask 'quicklookase'
 cask 'qlvideo'
 
 cask 'sourcetree'
-cask 'spectacle'
-cask 'keepingyouawake'
 cask 'iina'
 
 cask 'visual-studio-code'
-cask 'vlc'
-cask 'webstorm'
+# cask 'webstorm'
