@@ -1,13 +1,13 @@
 # opens iTerm2
-alt - return : "${HOME}"/.config/yabai/scripts/open_iterm2.sh
-shift + alt + ctrl - d : "${HOME}"/.config/yabai/scripts/open_dev.sh
+alt - return : "${HOME}"/.dotfile/yabai/scripts/open_iterm2.sh
+shift + alt + ctrl - d : "${HOME}"/.dotfile/yabai/scripts/open_dev.sh
 
 # Show system statistics
-# fn + lalt - 1 : "${HOME}"/.config/yabai/scripts/show_cpu.sh
-# fn + lalt - 2 : "${HOME}"/.config/yabai/scripts/show_mem.sh
-# fn + lalt - 3 : "${HOME}"/.config/yabai/scripts/show_bat.sh
-# fn + lalt - 4 : "${HOME}"/.config/yabai/scripts/show_disk.sh
-# fn + lalt - 5 : "${HOME}"/.config/yabai/scripts/show_song.sh
+# fn + lalt - 1 : "${HOME}"/.dotfile/yabai/scripts/show_cpu.sh
+# fn + lalt - 2 : "${HOME}"/.dotfile/yabai/scripts/show_mem.sh
+# fn + lalt - 3 : "${HOME}"/.dotfile/yabai/scripts/show_bat.sh
+# fn + lalt - 4 : "${HOME}"/.dotfile/yabai/scripts/show_disk.sh
+# fn + lalt - 5 : "${HOME}"/.dotfile/yabai/scripts/show_song.sh
 
 # focus window(同一个空间切换窗口焦点)
 alt - h : yabai -m window --focus west

@@ -20,7 +20,7 @@
 # The "path" setting is mandatory when using the "file_system" engine.
 [storage]
 engine = file_system
-path = /Users/dyno/.mackup
+path = "${HOME}"/.mackup
 # # or
 # path = /some/folder/in/your/root
 
